@@ -1,0 +1,19 @@
+.eventWrapper {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    margin-top: -70px;
+}
+
+.eventWrapper img {
+    margin-right: 40px;
+}
+
+.eventWrapper span {
+    font-size: 30px;
+}
+
+.eventWrapper p {
+    font-weight: 600;
+    font-size: 70px;
+}

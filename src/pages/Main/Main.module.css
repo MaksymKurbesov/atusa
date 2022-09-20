@@ -1,0 +1,9 @@
+:global(.container) {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+:global(.section-title) {
+    margin-bottom: 30px;
+}

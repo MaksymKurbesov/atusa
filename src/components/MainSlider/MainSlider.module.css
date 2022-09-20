@@ -1,0 +1,38 @@
+.mainSlider {
+    max-width: 800px;
+    margin: 0 auto 70px;
+    display: flex;
+    align-items: center;
+    height: 650px;
+    position: relative;
+}
+
+.sliderItem {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextArrow {
+    width: 50px !important;
+    height: 50px !important;
+    background-image: url("/src/assets/images/next.png") !important;
+    background-size: 50px 50px !important;
+    background-repeat: no-repeat;
+}
+
+.nextArrow::before {
+    content: '' !important;
+}
+
+.prevArrow {
+    width: 50px !important;
+    height: 50px !important;
+    background-image: url("/src/assets/images/prev.png") !important;
+    background-size: 50px 50px !important;
+    background-repeat: no-repeat;
+}
+
+.prevArrow::before {
+    content: '' !important;
+}

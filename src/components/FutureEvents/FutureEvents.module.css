@@ -1,0 +1,21 @@
+
+
+.futureEvents ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+
+.futureEvents img {
+    pointer-events: none;
+}
+
+.parallaxWrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}

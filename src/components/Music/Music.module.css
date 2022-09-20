@@ -1,0 +1,24 @@
+.music {
+    margin-bottom: 20px;
+}
+
+.music ul {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(4, 1fr);
+    /*left: -70px;*/
+    /*flex-wrap: wrap;*/
+}
+
+.music li {
+    max-width: 400px;
+}
+
+.music li img {
+    width: 100%;
+}
+
+.parallaxWrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}

@@ -1,0 +1,47 @@
+.eventsList {
+    margin-bottom: 70px;
+}
+
+.eventsList li {
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.eventsList li:hover {
+    background-color: #ededed;
+
+}
+
+.eventsList li:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.eventsList img {
+    margin-right: 100px;
+}
+
+.showMoreButton {
+    display: block;
+    width: 150px;
+    margin: 0 auto 40px;
+    padding: 3px 0;
+    font-size: 22px;
+    font-weight: 600;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.showMoreButton:hover {
+    background: black;
+    color: white;
+}
+
+.eventLink {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+.newsList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.newsList img {
+    margin-bottom: 40px;
+}
+
+.newsList h3 {
+    font-size: 30px;
+}
+
+.date {
+    margin-bottom: 10px;
+}
+
+.newsList p {
+    font-size: 20px;
+}

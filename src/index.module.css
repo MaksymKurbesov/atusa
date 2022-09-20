@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Steclo;
+  src: url("./assets/fonts/Steclo.otf");
+}
+
+@font-face {
+  font-family: NeueMachina;
+  src: url("./assets/fonts/NeueMachina-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: NeueMachina;
+  src: url("./assets/fonts/NeueMachina-Medium.ttf");
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Steclo;
+}
+
+html {
+  background-color: white;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-family: NeueMachina;
+  font-size: 50px;
+  font-weight: 500;
+}
